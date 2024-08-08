@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit, sans-serif;
+}
+
+
+body { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5E1EF;
+}
+
+.container {
+    width: 320px;
+    height: 499px;
+    background-color: 	white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;;
+}
+
+
+img {
+    margin: 15px auto;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.p {
+    display: flex;
+    width: 288px;
+    margin: 15px auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.copy {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
